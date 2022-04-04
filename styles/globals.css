@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* To apply css for base classess */
+@layer base{
+    body{
+        /* custom background css implication */
+        @apply bg-[#030e13] text-gray-300 font-sans;
+    }
+}
