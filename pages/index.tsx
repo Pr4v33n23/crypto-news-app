@@ -1,6 +1,7 @@
 import type { GetServerSideProps, NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import { Footer } from '../components/footer/Footer'
 import { Header } from '../components/header/Header'
 import { News } from '../components/news/News'
 import { URL } from '../constants/news'
@@ -16,9 +17,11 @@ const Home: NextPage<IHomePageProps> = ({news}) => {
       <Head>
         <title>Cryptocate</title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
       </Head>
       <Header/>
       <News news={news}/>
+      <Footer/>
     </div>
   )
 }

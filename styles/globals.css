@@ -8,4 +8,8 @@
         /* custom background css implication */
         @apply bg-[#030e13] text-gray-300 font-sans;
     }
+
+    html {
+        @apply scroll-smooth;
+    }
 }

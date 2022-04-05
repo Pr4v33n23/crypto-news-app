@@ -19,13 +19,13 @@ export const Header: React.FC = () => {
             <h3>Home</h3>
           </a>
         </Link>
-        <Link href={'/about'}>
+        <Link href={'#footer'} >
           <a>
             {' '}
             <h3>About</h3>
           </a>
         </Link>
-        <Link href={'/contact'}>
+        <Link href={'#footer'}>
           <a>
             {' '}
             <h3>Contact</h3>
